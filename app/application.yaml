@@ -7,11 +7,11 @@ spec:
   project: default
   source:
     repoURL: https://github.com/ravalasaradhi2025/gitops-k8s-app.git
-    targetRevision: HEAD
-    path: overlays/dev
+    targetRevision: MAIN
+    path: overlays/prod
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev
+    namespace: prod
   syncPolicy:
     automated:
       prune: true
