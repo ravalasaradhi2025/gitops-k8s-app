@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/ravalasaradhi2025/gitops-k8s-app.git
-    targetRevision: MAIN
-    path: overlays/prod
+    targetRevision: main
+    path: overplays/prod
   destination:
     server: https://kubernetes.default.svc
     namespace: prod
